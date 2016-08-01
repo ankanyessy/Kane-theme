@@ -1,1 +1,229 @@
-@import"materialize-src/sass/materialize"
+/*@import"materialize-src/sass/materialize"*/
+
+$principal: #5FB765;
+$primary-color: #73B778;
+$secondary-color: #273860;
+$color-text: #E1DEDE;
+$text-second: #D4D4D4;
+$color-mobile: #205942;
+$font-family: Helvetica; 
+$button-color: #423636;
+$color-border: #3F8B24;
+$color-border2: #926033;
+
+body {
+	font-family: $font-family;
+	.container-fluid {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		.nav-principal {
+			background-color: $principal;
+		}
+	p {
+		background-color: $color-text;
+	}
+	}
+}
+
+
+.imagen-fondo {
+	background-image: url(../img/carousel-bg.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 100% 100%;
+	color: $color-text;
+	margin-top: -20px;
+
+	h2 {
+		padding: 10px 30px;
+		font-size: 50px;
+	}
+	p {
+		margin: 0 50px;
+		font-size: 20px;
+	}
+}
+
+.secondary {
+	background-color: $secondary-color;
+	color: $color-text;
+
+	.text-lang {
+		box-sizing: border-box;
+	}
+
+	.design {
+		.inserImg {
+			background-image: url(../img/icon-bg.png);
+			background-repeat: no-repeat;
+			background-size: 205px 205px;
+			height: 150px;
+			background-color: #565555;
+
+			img {
+				margin-top: 25px;
+			}
+		}
+
+		h6 {
+			font-size: 25px;
+		}
+
+		p {
+			color: $text-second;
+		}
+
+
+	}
+
+	.mobile { 
+		background-color: $color-mobile;
+		width: 100%;
+		padding: 30px 50px 40px 30px;
+		left: 20px;
+		h6 {
+			font-size: 25px;
+		}
+
+		.container-fluid {
+			width: 80%;
+			height: 85px;
+			left: 30px;
+			transform: rotate(55deg);
+						-webkit-transform: rotate(55deg);
+						-o-transform: rotate(55deg);
+						-ms-transform: rotate(55deg);
+						transform: rotate(55deg);
+
+			img {
+				height: 65px;
+				margin: 10px;
+			}
+		}
+		
+	}
+
+	.design, .mobile {
+		width: 70%;
+		text-align: center;
+		margin: 20px 0 0 50px;
+	}
+
+	.button {
+		background-color: $button-color;
+		height: 40px;
+		border-style: none;
+		width: 15%;
+	}
+
+
+	.detail {
+		width: 80%;
+		left: 30px;
+		text-align: center;
+		padding: 15px;
+		img {
+			height: 90px;
+			width: 100px;
+			background-size: 80px 80px;
+		}
+
+		p {
+			font-size: 10px;
+		}
+
+		.primary {
+			padding-left: 20px;
+		}
+		.socials {
+			float: left;
+			margin-left: 10px;
+
+			a {
+				text-decoration: none;
+				i {
+					color: $color-text;
+				}
+			}
+		}
+	}
+
+	.border {
+		border-color: 2px solid $color-border;
+
+
+		button {
+			border-style: none;
+			height: 40px;
+			width: 50%;
+		}
+	}
+
+	.cite {
+		margin: 0 100px;
+		list-style: none;
+		background: transparent;
+		
+
+		cite {
+			color: #FABE06;
+		}
+	}
+
+
+	.form {
+		margin: 0 25%;
+
+		.form-group {
+			margin: 0;
+		}
+	}
+
+	button {
+		border-style: none;
+		margin-top: 20px;
+	}
+
+	.contact {
+		margin-bottom: 90px;
+	}
+}
+
+.foto-reloj {
+	img {
+		height: 350px;
+		width: 75%;
+	}
+}
+
+.paleta-colores {
+	margin-left: 17%;
+	.palet {
+	width: 15%;
+	height: 100px;
+	display: inline-block;
+	margin: 10px 0 0 0;
+	padding-left: 18px;
+
+	}
+	.brown {
+		color: $color-text;
+	}
+
+}
+
+.whatwe, .our, .best, .whatour, .get {
+	margin-top: -20px;
+}
+
+.image-social {
+	background-image: url(../img/img-divider-img.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	height: 400px;
+	
+}
+
+
+
