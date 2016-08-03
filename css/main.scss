@@ -213,18 +213,77 @@ body {
 
 }
 
-.whatwe, .our, .best, .whatour, .get {
+.whatwe, .our, .best, .whatour, .get, .image-social, .ultimo {
 	margin-top: -20px;
 }
 
 .image-social {
 	background-image: url(../img/img-divider-img.jpg);
-	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 300px;
-	
 
+		.redes {
+		float: left;
+		padding-top: 100px;
+		padding-left: 30px;
+
+		.face {
+			margin-left: 100px;
+		}
+
+		a i {
+			color: white;
+		}
+
+	}
+		
 }
 
+.ultimo {
+	color: white;
 
+	.box-footer {
+		.icon, .input-group {
+		margin-left: 20px;
+		padding-left: 20px;
+		
+		}
 
+		.input-group {
+
+			.input-grupo-btn {
+				background-color: $secondary-color;
+
+				span {
+				color: #735B31;
+				margin: 5px;
+				}
+				input {
+					height: 27px;
+				}
+			}
+		}
+
+		button {
+			margin-left: 40px;
+			background-color: #35271A;
+		}
+	}
+	.footer {
+		.copy {
+			p {
+				color: black;
+				a {
+				text-decoration: none;
+				color: white;
+				}
+			}
+			
+		}
+	}
+
+	.back {
+		padding-right: 20px;
+	}
+
+}

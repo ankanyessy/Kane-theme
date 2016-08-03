@@ -126,13 +126,43 @@ body {
   .paleta-colores .brown {
     color: #E1DEDE; }
 
-.whatwe, .our, .best, .whatour, .get {
+.whatwe, .our, .best, .whatour, .get, .image-social, .ultimo {
   margin-top: -20px; }
 
 .image-social {
   background-image: url(../img/img-divider-img.jpg);
-  background-repeat: no-repeat;
-  background-size: 400px 400px;
-  height: 400px; }
+  background-size: 100% 100%;
+  height: 300px; }
+  .image-social .redes {
+    float: left;
+    padding-top: 100px;
+    padding-left: 30px; }
+    .image-social .redes .face {
+      margin-left: 100px; }
+    .image-social .redes a i {
+      color: white; }
+
+.ultimo {
+  color: white; }
+  .ultimo .box-footer .icon, .ultimo .box-footer .input-group {
+    margin-left: 20px;
+    padding-left: 20px; }
+  .ultimo .box-footer .input-group .input-grupo-btn {
+    background-color: #273860; }
+    .ultimo .box-footer .input-group .input-grupo-btn span {
+      color: #735B31;
+      margin: 5px; }
+    .ultimo .box-footer .input-group .input-grupo-btn input {
+      height: 27px; }
+  .ultimo .box-footer button {
+    margin-left: 40px;
+    background-color: #35271A; }
+  .ultimo .footer .copy p {
+    color: black; }
+    .ultimo .footer .copy p a {
+      text-decoration: none;
+      color: white; }
+  .ultimo .back {
+    padding-right: 20px; }
 
 /*# sourceMappingURL=main.css.map */
